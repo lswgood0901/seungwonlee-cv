@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Seung Won Lee is a postdoctoral researcher working across human-AI interaction, adaptive AI UX, design informatics, and computational design."
+    />
+    <meta name="theme-color" content="#12362d" />
+    <meta property="og:title" content="Seung Won Lee — Research &amp; Design" />
+    <meta
+      property="og:description"
+      content="Research and design work by Seung Won Lee."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://seung-won-lee.com/" />
+    <title>Seung Won Lee — Research &amp; Design</title>
+    <link rel="canonical" href="https://seung-won-lee.com/" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css?v=6" />
+    <script src="content.js?v=6" defer></script>
+    <script src="media-library.js?v=6" defer></script>
+    <script src="script.js?v=6" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#work-index">Skip to work index</a>
+
+    <main class="paper-sheet">
+      <div class="dock">
+        <header class="identity" id="top">
+          <h1>Seung Won Lee</h1>
+
+          <div class="identity-profile">
+            <p>
+              <span class="profile-label">Current role</span>
+              Postdoctoral Researcher<br />
+              Design AI Lab &amp; Human-Centered AI Design Institute, Hanyang University
+            </p>
+            <p>
+              <span class="profile-label">Research interests</span>
+              Human-AI Interaction · Adaptive AI UX · Design Informatics
+            </p>
+          </div>
+        </header>
+
+        <div class="stage-col">
+          <figure class="media-stage" id="media-stage" aria-labelledby="stage-title stage-meta">
+            <div class="media-window">
+              <div class="media-frame">
+                <img id="stage-image" src="" alt="" fetchpriority="high" />
+                <video id="stage-video" muted loop playsinline preload="metadata" hidden></video>
+              </div>
+              <div class="media-placeholder" id="media-placeholder" hidden>
+                <span>Work preview</span>
+                <strong id="placeholder-title"></strong>
+              </div>
+              <div class="media-wash" aria-hidden="true"></div>
+              <span class="stage-index" id="stage-index">01 / 14</span>
+              <span class="stage-kind" id="stage-kind">Research</span>
+              <span class="stage-mode" id="stage-mode">Auto / 4 sec</span>
+            </div>
+            <figcaption class="stage-fulltitle">
+              <span class="visually-hidden" id="stage-title">DesignLoRA</span>
+              <span class="visually-hidden" id="stage-meta">Advanced Engineering Informatics · 2026</span>
+              <span id="stage-fulltitle-text"></span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="index-col">
+      <section class="work-index" id="work-index" aria-label="Work index">
+        <section class="work-group" aria-labelledby="research-title">
+          <header class="group-heading">
+            <p>01 / Research</p>
+            <div>
+              <h2 id="research-title">Research</h2>
+            </div>
+          </header>
+          <ol class="work-list" id="research-list"></ol>
+        </section>
+
+        <section class="work-group design-group" aria-labelledby="design-title">
+          <header class="group-heading">
+            <p>02 / Design</p>
+            <div>
+              <h2 id="design-title">Design Works</h2>
+            </div>
+          </header>
+          <ol class="work-list" id="design-list"></ol>
+        </section>
+      </section>
+
+      <footer class="profile-footer">
+        <nav class="contact-links" aria-label="Contact and profile links">
+          <a href="mailto:lswgood0901@gmail.com">Email <span aria-hidden="true">↗</span></a>
+          <a href="seung-won-lee-cv.pdf" target="_blank" rel="noreferrer">CV <span aria-hidden="true">↗</span></a>
+          <a
+            href="https://scholar.google.com/citations?user=3PZ_V8IAAAAJ"
+            target="_blank"
+            rel="noreferrer"
+          >Google Scholar <span aria-hidden="true">↗</span></a>
+        </nav>
+
+        <p class="footer-note">
+          <span>Seung Won Lee</span>
+          <span>© <span id="current-year">2026</span></span>
+        </p>
+      </footer>
+      </div>
+    </main>
+
+    <button class="media-library-launch" id="media-library-open" type="button" hidden>
+      Media Library
+    </button>
+
+    <dialog class="media-library" id="media-library" aria-labelledby="media-library-title">
+      <header class="media-library-header">
+        <div>
+          <p class="media-library-kicker">Local editor</p>
+          <h2 id="media-library-title">Media Library</h2>
+        </div>
+        <button class="media-library-close" id="media-library-close" type="button" aria-label="Close media library">
+          ×
+        </button>
+      </header>
+
+      <div class="media-library-body">
+        <div class="media-library-intro">
+          <p>
+            Add JPG, PNG, WebP, GIF, AVIF, MP4, WebM, or MOV files, connect them to projects, and
+            maintain the project and publication metadata below. Saved changes stay
+            in this browser.
+          </p>
+          <input
+            id="media-library-input"
+            type="file"
+            accept=".jpg,.jpeg,.png,.webp,.gif,.avif,.mp4,.webm,.mov,image/jpeg,image/png,image/webp,image/gif,image/avif,video/mp4,video/webm,video/quicktime"
+            multiple
+            hidden
+          />
+          <button class="media-library-primary" id="media-library-add" type="button">
+            Add media
+          </button>
+        </div>
+
+        <p class="media-library-status" id="media-library-status" role="status" aria-live="polite"></p>
+
+        <div class="media-library-columns">
+          <section aria-labelledby="media-assets-title">
+            <div class="media-library-section-heading">
+              <h3 id="media-assets-title">Uploaded media</h3>
+              <span id="media-library-count">0 files</span>
+            </div>
+            <div class="media-assets" id="media-library-assets"></div>
+          </section>
+
+          <section aria-labelledby="media-links-title">
+            <div class="media-library-section-heading">
+              <h3 id="media-links-title">Media links</h3>
+              <span>Main preview + design archive</span>
+            </div>
+            <div class="media-assignments" id="media-library-assignments"></div>
+            <button class="media-library-primary media-library-save" id="media-library-save" type="button">
+              Save media links
+            </button>
+          </section>
+        </div>
+
+        <section class="media-project-editor" aria-labelledby="media-projects-title">
+          <div class="media-library-section-heading media-project-editor-heading">
+            <div>
+              <h3 id="media-projects-title">Projects &amp; publication tags</h3>
+              <span>Edit SCIE, ~SCIE, TOP #%, IF, authorship, and project details</span>
+            </div>
+            <div class="media-project-actions">
+              <button class="media-library-secondary" id="media-library-project-export" type="button">
+                Export content.js
+              </button>
+              <button class="media-library-secondary" id="media-library-project-reset" type="button">
+                Reset defaults
+              </button>
+              <button class="media-library-primary" id="media-library-project-add" type="button">
+                Add project
+              </button>
+            </div>
+          </div>
+          <div class="media-projects" id="media-library-projects"></div>
+          <button class="media-library-primary media-library-save" id="media-library-project-save" type="button">
+            Save projects
+          </button>
+        </section>
+
+        <p class="media-library-note">
+          Browser storage is ideal for local preview and editing. To make the same media
+          and project data public on GitHub Pages, copy approved files into
+          <code>assets/</code> and transfer the saved values to <code>content.js</code>.
+        </p>
+      </div>
+    </dialog>
+
+    <noscript>
+      <p class="noscript-note">
+        JavaScript is required for the changing work preview. Publication links remain
+        available in Google Scholar and the PDF CV above.
+      </p>
+    </noscript>
+  </body>
+</html>
