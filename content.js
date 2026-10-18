@@ -17,6 +17,24 @@ window.PORTFOLIO_DATA = {
   cycleDuration: 4000,
   items: [
     {
+      id: "designjournal",
+      kind: "research",
+      label: "DesignJournal",
+      descriptor: "Agent-driven creative trace mining",
+      contribution: "Co-first Author",
+      // Journal metrics: JCR data year 2024; Ergonomics rank 4/25.
+      tags: ["SCIE", "TOP 16%", "IF=4.900"],
+      title: "How Agent-Driven Creative Trace Mining Reshapes Design Behavior in a Deployment Study of Intent-Aligned Multimodal Design",
+      venue: "International Journal of Human–Computer Interaction",
+      year: "2026",
+      url: "https://doi.org/10.1080/10447318.2026.2739092",
+      image: "assets/designjournal.mp4",
+      reducedImage: "assets/designjournal-still.jpg",
+      alt: "DesignJournal agents interpreting a designer's visual references and notes to support intent-aligned design exploration",
+      fit: "contain",
+      tone: "#deddd9",
+    },
+    {
       id: "designlora",
       kind: "research",
       label: "DesignLoRA",
