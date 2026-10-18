@@ -21,9 +21,9 @@ window.PORTFOLIO_DATA = {
       kind: "research",
       label: "DesignJournal",
       descriptor: "Agent-driven creative trace mining",
-      contribution: "Co-first Author",
-      // Journal metrics: JCR data year 2024; Ergonomics rank 4/25.
-      tags: ["SCIE", "TOP 16%", "IF=4.900"],
+      contribution: "1st Author",
+      // Journal metrics: JCR data year 2025; Ergonomics (SSCI) rank 2/24 (8.3%).
+      tags: ["SSCI", "TOP 8.3%", "IF=6.100"],
       title: "How Agent-Driven Creative Trace Mining Reshapes Design Behavior in a Deployment Study of Intent-Aligned Multimodal Design",
       venue: "International Journal of Human–Computer Interaction",
       year: "2026",
